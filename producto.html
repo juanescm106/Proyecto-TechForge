@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">TechForge</div>
+        </div>
+    </nav>
+
+    <!-- Contenedor del Producto -->
+    <main class="product-details">
+        <div class="breadcrumb">
+            <a href="index.html">Inicio</a> / <a href="teclados.html">Teclados</a>
+        </div>
+        <div class="product-container">
+            <!-- Sección de Imagen -->
+            <div class="product-image-section">
+                <img src="images/teclado1.png" alt="Producto" class="product-image">
+            </div>
+
+            <!-- Sección de Información -->
+            <div class="product-info-section">
+                <h1 class="product-title">Teclado Corsair K70 Pro Mini Wireless</h1>
+                <p class="product-price">COP$1,081,000</p>
+
+                <!-- Opciones -->
+                <div class="product-options">
+                    <label for="color">Color:</label>
+                    <select id="color">
+                        <option>Negro</option>
+                        <option>Blanco</option>
+                    </select>
+
+                    <label for="size">Tamaño:</label>
+                    <select id="size">
+                        <option>Compacto</option>
+                        <option>Completo</option>
+                    </select>
+                </div>
+
+                <div class="product-actions">
+                    <button class="reset-options">Limpiar</button>
+                    <div class="product-purchase">
+                        <input type="number" min="1" value="1" class="quantity-input">
+                        <button class="add-to-cart-button">Añadir al carrito</button>
+                    </div>
+                </div>
+
+                <!-- Descripción -->
+                <div class="product-description">
+                    <h3>Descripción</h3>
+                    <p>
+                        Este teclado mecánico compacto y de alto rendimiento es ideal para juegos y trabajo. Con iluminación RGB y switches de alta calidad, es perfecto para cualquier configuración.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

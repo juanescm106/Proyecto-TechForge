@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Teclado Corsair K70 Pro Mini Wireless RGB 60%",
+        "image": "Teclados/teclado1.avif",
+        "description": "Un teclado compacto y de alto rendimiento.",
+        "price": "COP$1,081,000"
+    },
+    {
+        "id": 2,
+        "name": "Teclado Mecánico Logitech G915 TKL Wireless RGB",
+        "image": "Teclados/teclado2.webp",
+        "description": "Teclado mecánico inalámbrico con iluminación RGB.",
+        "price": "COP$952,000"
+    },
+    {
+        "id": 3,
+        "name": "Teclado SteelSeries Apex 9 Mini",
+        "image": "Teclados/teclado3.webp",
+        "description": "Teclado mecánico compacto con switches ópticos.",
+        "price": "COP$623,000"
+    }
+]

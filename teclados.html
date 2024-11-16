@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sección de Teclados - TechForge</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">TechForge</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="#categorias" class="dropbtn">Categorías</a>
+                    <div class="dropdown-content">
+                        <a href="teclados.html">Teclados</a>
+                        <a href="#mouses">Mouses</a>
+                        <a href="#auriculares">Auriculares</a>
+                        <a href="#monitores">Monitores</a>
+                        <a href="#gabinetes">Gabinetes</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de Teclados -->
+    <section class="teclados-section container my-5">
+        <div class="row">
+            <!-- Barra Lateral de Filtros -->
+            <aside class="col-md-3">
+
+                <h6>Filtrar por marca</h6>
+                <select class="form-control mb-3">
+                    <option>Elige una marca</option>
+                    <option>SteelSeries</option>
+                    <option>Corsair</option>
+                    <option>Redragon</option>
+                </select>
+            </aside>
+
+            <!-- Sección de Productos -->
+            <div class="col-md-9">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h2>Teclados</h2>
+                    <div>
+                        <label for="sort">Ordenar por</label>
+                        <select id="sort" class="form-control d-inline w-auto">
+                            <option>Más recientes</option>
+                            <option>Precio más bajo</option>
+                            <option>Precio más alto</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Tarjeta de Producto 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card p-3 h-100">
+                            <a href="producto.html?id=1">
+                            <img src="Teclados/teclado1.avif" alt="Teclado CORSAIR" class="product-image img-fluid">
+                            </a>
+                            <div class="product-info mt-3">
+                                <h6>Teclado Corsair k70 Pro Mini Wireless RGB 60%</h6>
+                                <p class="product-price">COP$1,081,000</p>
+                                <button class="buy-button btn btn-success btn-block">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tarjeta de Producto 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card p-3 h-100">
+                            <a href="producto.html?id=2">
+                            <img src="Teclados/teclado2.webp" alt="Teclado Logitech" class="product-image img-fluid">
+                            </a>
+                            <div class="product-info mt-3">
+                                <h6>Teclado Mecanico Logitech G915 TKL Wireless RGB</h6>
+                                <div class="price">
+                                    <span class="current-price">COP$952,000</span>
+                                    <span class="original-price">COP$974,000</span>
+                                </div>
+                                <button class="buy-button btn btn-success btn-block">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tarjeta de Producto 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="product-card p-3 h-100">
+                            <a href="producto.html?id=3">
+                            <img src="Teclados/teclado3.webp" alt="Teclado SteelSeries" class="product-image img-fluid">
+                            </a>
+                            <div class="product-info mt-3">
+                                <h6>Teclado SteelSeries Apex 9 Mini</h6>
+                                <p class="product-price">COP$623,000</p>
+                                <button class="buy-button btn btn-success btn-block">Añadir al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Agrega más tarjetas de producto según sea necesario -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
