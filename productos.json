@@ -1,23 +1,223 @@
-[
-    {
-        "id": 1,
-        "name": "Teclado Corsair K70 Pro Mini Wireless RGB 60%",
-        "image": "Teclados/teclado1.avif",
-        "description": "Un teclado compacto y de alto rendimiento.",
-        "price": "COP$1,081,000"
-    },
-    {
-        "id": 2,
-        "name": "Teclado Mecánico Logitech G915 TKL Wireless RGB",
-        "image": "Teclados/teclado2.webp",
-        "description": "Teclado mecánico inalámbrico con iluminación RGB.",
-        "price": "COP$952,000"
-    },
-    {
-        "id": 3,
-        "name": "Teclado SteelSeries Apex 9 Mini",
-        "image": "Teclados/teclado3.webp",
-        "description": "Teclado mecánico compacto con switches ópticos.",
-        "price": "COP$623,000"
-    }
-]
+{
+    "Teclados": [
+        {
+            "id": "T1",
+            "nombre": "Teclado Corsair K70 Pro Mini Wireless RGB 60%",
+            "precio": "COP$1,081,000",
+            "descripcion": [
+                "Un teclado mecánico compacto y de alto rendimiento.",
+                "Iluminación RGB y switches de alta calidad."
+            ],
+            "imagen": "img-teclados/teclado1.avif",
+            "opciones": [
+                { "label": "Color", "opciones": ["Negro", "Blanco"] },
+                { "label": "Tamaño", "opciones": ["Compacto", "Completo"] }
+            ]
+        },
+        {
+            "id": "T2",
+            "nombre": "Teclado Mecánico Logitech G915 TKL Wireless RGB",
+            "precio": "COP$952,000",
+            "descripcion": [
+                "Teclado mecánico inalámbrico con iluminación RGB.",
+                "Diseño ultra delgado con rendimiento máximo."
+            ],
+            "imagen": "img-teclados/teclado2.webp",
+            "opciones": [
+                { "label": "Color", "opciones": ["Negro", "Blanco"] },
+                { "label": "Conectividad", "opciones": ["Inalámbrica", "Cable"] }
+            ]
+        },
+        {
+            "id": "T3",
+            "nombre": "Teclado SteelSeries Apex 9 Mini",
+            "precio": "COP$623,000",
+            "descripcion": [
+                "Interruptores ópticos OptiPoint personalizados para una actuación más rápida y cero rebotes",
+                "Cambie el punto de actuación de la pulsación de tecla de 1 mm para juegos a 1,5 mm más deliberado",
+                "Interruptores totalmente intercambiables para personalización y longevidad.",
+                "Factor de forma compacto del 60% para una configuración de juego optimizada y más espacio en su escritorio para deslizar el mouse",
+                "La placa superior de aluminio Serie 5000, idéntica al metal de los aviones de combate, mejora la estabilidad estructural y la durabilidad."
+            ],
+            "imagen": "img-teclados/teclado3.webp",
+            "opciones": [
+                { "label": "Color", "opciones": ["Negro", "Blanco"] },
+                { "label": "Conectividad", "opciones": ["Inalámbrica", "Cable"] }
+            ]
+        }
+    ],
+    "Ratones": [
+        {
+            "id": "M1",
+            "nombre": "Ratón Razer DeathAdder V3 Pro",
+            "precio": "COP$698,508",
+            "descripcion": "Ratón ergonómico con sensores ópticos avanzados.",
+            "imagen": "img-ratones/raton1.png",
+            "opciones": [
+                { "label": "DPI", "opciones": ["400", "800", "1600", "3200"] },
+                { "label": "Color", "opciones": ["Negro", "Blanco", "Verde"] }
+            ]
+        },
+        {
+            "id": "M2",
+            "nombre": "Ratón Logitech G Pro X Superlight",
+            "precio": "COP$600,000",
+            "descripcion": "Ratón inalámbrico ultraligero para juegos.",
+            "imagen": "img-ratones/raton2.png",
+            "opciones": [
+                { "label": "DPI", "opciones": ["400", "800", "1600"] },
+                { "label": "Color", "opciones": ["Negro", "Blanco"] }
+            ]
+        },
+        {
+            "id": "M3",
+            "nombre": "Mouse Corsair Nightsabre Wireless Rgb",
+            "precio": "COP$743,000",
+            "descripcion": [
+                "Potencia y rendimiento en tu palma: el mouse inalámbrico que te mantiene bien equipado y listo para cualquier cosa en FPS, MOBA, Battle Royale y más, con una forma exquisitamente diseñada, robusta y simétrica.",
+                "Este ratón va a 11: 11 botones totalmente programables, incluyendo una inclinación de la rueda de desplazamiento, le permiten personalizar la forma en que juega con macros potentes o reasignaciones de botones.",
+                "Sensor óptico ultrapreciso de 26k DPI: con un seguimiento nativo de 26,000 DPI, 650 IPS y aceleración de hasta 50G, el sensor óptico CORSAIR MARKSMAN captura con precisión incluso los movimientos más pequeños del mouse de contracción rápida.",
+                "Batería inalámbrica de hasta 100 horas con recarga rápida: reproduce hasta 100 horas partido tras partido tras partido, con una sola carga, y solo 15 minutos de recarga te mantiene en el juego durante 20 horas a través de Bluetooth con retroiluminación apagada.",
+                "Retroiluminación RGB dinámica de siete zonas: luce nítido con láser en el campo de batalla con siete zonas de iluminación RGB deslumbrantes y de diseño único, infinitamente personalizables en iCUE."
+            ],
+            "imagen": "img-ratones/raton3.avif",
+            "opciones": [
+                { "label": "DPI", "opciones": ["400", "800", "1600"] },
+                { "label": "Color", "opciones": ["Negro"] }
+            ]
+        }
+    ],
+    "Auriculares": [
+        {
+            "id": "A1",
+            "nombre": "Virtuoso Max Wireless",
+            "precio": "COP$1,534,024",
+            "descripcion": [
+                "Auriculares de alta fidelidad con sonido envolvente.",
+                "Construcción premium con materiales de alta calidad."
+            ],
+            "imagen": "img-auriculares/auricular1.webp",
+            "opciones": [
+                { "label": "Conectividad", "opciones": ["Inalámbrica", "Cable"] },
+                { "label": "Color", "opciones": ["Negro", "Plata"] }
+            ]
+        },
+        {
+            "id": "A2",
+            "nombre": "HyperX Cloud II Wireless",
+            "precio": "COP$899,000",
+            "descripcion": [
+                "Auriculares inalámbricos con sonido envolvente 7.1.",
+                "Diseño cómodo para largas sesiones de juego."
+            ],
+            "imagen": "img-auriculares/auricular2.png",
+            "opciones": [
+                { "label": "Conectividad", "opciones": ["Inalámbrica"] },
+                { "label": "Color", "opciones": ["Rojo", "Negro"] }
+            ]
+        },
+        {
+            "id": "A3",
+            "nombre": "Logitech G Pro X Wireless Lightspeed",
+            "precio": "COP$1,399,000",
+            "descripcion": [
+                "Auriculares inalámbricos con tecnología Lightspeed.",
+                "Micrófono extraíble de calidad profesional."
+            ],
+            "imagen": "img-auriculares/auricular3.png",
+            "opciones": [
+                { "label": "Conectividad", "opciones": ["Inalámbrica"] },
+                { "label": "Color", "opciones": ["Negro"] }
+            ]
+        }
+    ],
+    "Monitores": [
+        {
+            "id": "MO1",
+            "nombre": "Monitor LG UltraGear 27GN950-B",
+            "precio": "COP$2,499,000",
+            "descripcion": [
+                "Monitor gaming de 27 pulgadas con resolución 4K UHD.",
+                "Tasa de refresco de 144 Hz y tecnología G-Sync compatible."
+            ],
+            "imagen": "img-monitores/monitor1.webp",
+            "opciones": [
+                { "label": "Resolución", "opciones": ["4K UHD", "1440p QHD"] },
+                { "label": "Tamaño", "opciones": ["27 pulgadas", "32 pulgadas"] }
+            ]
+        },
+        {
+            "id": "MO2",
+            "nombre": "Samsung Odyssey G7",
+            "precio": "COP$2,199,000",
+            "descripcion": [
+                "Pantalla curva de 32 pulgadas con resolución QHD.",
+                "Tasa de refresco de 240 Hz y tiempo de respuesta de 1ms."
+            ],
+            "imagen": "img-monitores/monitor2.avif",
+            "opciones": [
+                { "label": "Resolución", "opciones": ["1440p QHD"] },
+                { "label": "Tamaño", "opciones": ["32 pulgadas"] }
+            ]
+        },
+        {
+            "id": "MO3",
+            "nombre": "ASUS ROG Swift PG35VQ",
+            "precio": "COP$5,999,000",
+            "descripcion": [
+                "Monitor gaming ultrapanorámico de 35 pulgadas.",
+                "Resolución WQHD y HDR1000 para imágenes increíbles."
+            ],
+            "imagen": "img-monitores/monitor3.png",
+            "opciones": [
+                { "label": "Resolución", "opciones": ["WQHD"] },
+                { "label": "Tamaño", "opciones": ["35 pulgadas"] }
+            ]
+        }
+    ],
+    "Gabinetes": [
+        {
+            "id": "G1",
+            "nombre": "Corsair iCUE 4000X RGB",
+            "precio": "COP$850,000",
+            "descripcion": [
+                "Gabinete ATX con iluminación RGB personalizable.",
+                "Ventilación optimizada y diseño premium."
+            ],
+            "imagen": "img-gabinetes/gabinete1.avif",
+            "opciones": [
+                { "label": "Tipo", "opciones": ["ATX", "Micro-ATX", "Mini-ITX"] },
+                { "label": "Color", "opciones": ["Negro", "Blanco"] }
+            ]
+        },
+        {
+            "id": "G2",
+            "nombre": "NZXT H510 Elite",
+            "precio": "COP$950,000",
+            "descripcion": [
+                "Gabinete minimalista con panel de vidrio templado.",
+                "Incluye ventiladores RGB para una estética espectacular."
+            ],
+            "imagen": "img-gabinetes/gabinete2.png",
+            "opciones": [
+                { "label": "Tipo", "opciones": ["ATX", "Micro-ATX"] },
+                { "label": "Color", "opciones": ["Negro", "Blanco"] }
+            ]
+        },
+        {
+            "id": "G3",
+            "nombre": "Cooler Master MasterBox TD500",
+            "precio": "COP$750,000",
+            "descripcion": [
+                "Gabinete con diseño único y gran capacidad de enfriamiento.",
+                "Compatibilidad con refrigeración líquida."
+            ],
+            "imagen": "img-gabinetes/gabinete3.webp",
+            "opciones": [
+                { "label": "Tipo", "opciones": ["ATX"] },
+                { "label": "Color", "opciones": ["Negro"] }
+            ]
+        }
+    ]
+
+}

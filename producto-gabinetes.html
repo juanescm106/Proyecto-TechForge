@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Gabinete</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="logo">TechForge</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../gabinetes.html">Gabinetes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contenedor del Producto -->
+    <main class="product-details">
+        <div class="breadcrumb">
+            <a href="../index.html">Inicio</a> / <a href="../gabinetes.html">Gabinetes</a>
+        </div>
+        <div class="product-container">
+            <!-- Imagen del Producto -->
+            <div class="product-image-section">
+                <img src="" alt="Imagen del Gabinete" class="product-image">
+            </div>
+
+            <!-- Información del Producto -->
+            <div class="product-info-section">
+                <h1 class="product-title"></h1>
+                <p class="product-price"></p>
+
+                <!-- Opciones -->
+                <div class="product-options" id="product-options"></div>
+
+                <!-- Botones -->
+                <div class="product-actions">
+                    <input type="number" min="1" value="1" class="quantity-input">
+                    <button class="add-to-cart-button">Añadir al carrito</button>
+                </div>
+
+                <!-- Descripción -->
+                <div class="product-description">
+                    <h3>Descripción</h3>
+                    <div id="descripcion"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/script-gabinetes.js"></script>
+</body>
+</html>
